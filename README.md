@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# The result of my 3 months and 21 days of hard work
+
+## The project was on another repo and since it was my first work experience, I forgot that I should have a fork of it, so I open sourced it due to the fraud of the project employer.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

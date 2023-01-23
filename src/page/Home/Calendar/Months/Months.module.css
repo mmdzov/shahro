@@ -1,0 +1,12 @@
+/* Chrome, Safari and Opera */
+.NoScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.NoScrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.Direction {
+  direction: ltr;
+}

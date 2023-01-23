@@ -1,0 +1,270 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "iranyekan";
+  src: url("assets/fonts/iranyekan/eot/iranyekanwebregular.eot");
+  src: url("assets/fonts/iranyekan/eot/iranyekanwebregular.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/iranyekan/woff2/iranyekanwebregular.woff2")
+      format("woff2"),
+    url("assets/fonts/iranyekan/woff/iranyekanwebregular.woff") format("woff"),
+    url("assets/fonts/iranyekan/ttf/iranyekanwebregular.ttf") format("truetype"),
+    url("assets/fonts/iranyekan/svg/iranyekanwebregular.svg#svgFontName")
+      format("svg");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "iranyekan";
+  src: url("assets/fonts/iranyekan/eot/iranyekanwebbold.eot");
+  src: url("assets/fonts/iranyekan/eot/iranyekanwebbold.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/iranyekan/woff2/iranyekanwebbold.woff2") format("woff2"),
+    url("assets/fonts/iranyekan/woff/iranyekanwebbold.woff") format("woff"),
+    url("assets/fonts/iranyekan/ttf/iranyekanwebbold.ttf") format("truetype"),
+    url("assets/fonts/iranyekan/svg/iranyekanwebbold.svg#svgFontName")
+      format("svg");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "iranyekan";
+  src: url("assets/fonts/iranyekan/eot/iranyekanweblight.eot");
+  src: url("assets/fonts/iranyekan/eot/iranyekanweblight.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/iranyekan/woff2/iranyekanweblight.woff2") format("woff2"),
+    url("assets/fonts/iranyekan/woff/iranyekanweblight.woff") format("woff"),
+    url("assets/fonts/iranyekan/ttf/iranyekanweblight.ttf") format("truetype"),
+    url("assets/fonts/iranyekan/svg/iranyekanweblight.svg#svgFontName")
+      format("svg");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/materialIcons/MaterialIcons-Regular.eot");
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url("assets/fonts/materialIcons/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2")
+      format("woff2"),
+    url("assets/fonts/materialIcons/MaterialIcons-Regular.woff") format("woff"),
+    url("assets/fonts/materialIcons/MaterialIcons-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "noto regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("assets/fonts/noto/NotoNaskhArabic-Regular.ttf");
+  src: url("assets/fonts/noto/NotoNaskhArabic-Regular.ttf") format("ttf"),
+    url("assets/fonts/noto/NotoNaskhArabic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "noto bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("assets/fonts/noto/NotoNaskhArabic-Bold.ttf");
+  src: url("assets/fonts/noto/NotoNaskhArabic-Bold.ttf") format("ttf"),
+    url("assets/fonts/noto/NotoNaskhArabic-Bold.ttf") format("truetype");
+}
+
+html {
+  /* scroll-behavior: smooth; */
+  /* height: 100%; */
+}
+body {
+  margin: 0;
+  font-family: "iranyekan", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  all: unset;
+}
+
+.grad-frvrdn {
+  background: rgb(175, 35, 35) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(175, 35, 35, 1) 37%,
+    rgba(255, 41, 41, 1) 78%
+  ) !important;
+}
+
+.grad-ordbhsht {
+  background: rgb(44, 76, 186) im !important;
+  background: linear-gradient(
+    90deg,
+    rgba(44, 76, 186, 1) 31%,
+    rgba(82, 135, 203, 1) 52%,
+    rgba(113, 183, 217, 1) 79%
+  ) !important;
+  background: rgb(44, 76, 186) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(44, 76, 186, 1) 31%,
+    rgba(82, 135, 203, 1) 52%,
+    rgba(113, 183, 217, 1) 79%
+  ) !important;
+}
+
+.grad-khordad {
+  background: rgb(144, 59, 237) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(144, 59, 237, 1) 33%,
+    rgba(173, 114, 245, 1) 78%
+  ) !important;
+}
+.grad-tir {
+  background: rgb(21, 161, 86) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(21, 161, 86, 1) 33%,
+    rgb(22 124 85) 78%
+  ) !important;
+}
+.grad-mordad {
+  background: rgb(179, 14, 109) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(179, 14, 109, 1) 33%,
+    rgba(255, 118, 222, 1) 78%
+  ) !important;
+}
+.grad-shrvr {
+  background: rgb(102, 14, 179) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(102, 14, 179, 1) 33%,
+    rgba(255, 118, 215, 1) 78%
+  ) !important;
+}
+.grad-mhr {
+  background: rgb(69, 67, 88) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(69, 67, 88, 1) 31%,
+    rgba(148, 148, 148, 1) 78%
+  ) !important;
+}
+.grad-aban {
+  background: rgb(219, 72, 24) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(219, 72, 24, 1) 31%,
+    rgba(255, 192, 54, 1) 78%
+  ) !important;
+}
+.grad-azar {
+  background: rgb(86, 24, 219) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(86, 24, 219, 1) 31%,
+    rgba(53, 163, 245, 1) 78%
+  ) !important;
+}
+.grad-dy {
+  background: rgb(24, 219, 138) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(24, 219, 138, 1) 31%,
+    rgba(47, 148, 204, 1) 78%
+  ) !important;
+}
+.grad-bhmn {
+  background: rgb(215, 3, 118);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 3, 118, 1) 31%,
+    rgba(241, 114, 181, 1) 78%
+  );
+}
+.grad-sfnd {
+  background: rgb(52, 134, 238) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 134, 238, 1) 31%,
+    rgba(158, 90, 247, 1) 62%
+  ) !important;
+}
+
+/* a:focus,
+a:hover,
+a:active {
+  all: unset;
+} */
+* {
+  -webkit-tap-highlight-color: transparent !important;
+  outline: none !important;
+}
+button,
+textarea,
+select,
+a,
+input,
+img {
+  outline: none !important;
+}
+/* html,
+body,
+#app,
+#app > div {
+  height: 100%;
+} */
+
+input,
+textarea {
+  background-color: white;
+}
+
+input[type=file], /* FF, IE7+, chrome (except button) */
+input[type=file]::-webkit-file-upload-button {
+  /* chromes and blink button */
+  cursor: pointer;
+}
+
+.BgError {
+  background: url("assets/imgs/random.jpg") no-repeat center center/cover;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.leaflet-bottom.leaflet-right {
+  z-index: 99999;
+}
+.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+  position: unset !important;
+}
+.specialBoxShadow {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.resizeScale {
+  transform: scale(1) !important;
+}
+
+.overflowHidden {
+  overflow: hidden;
+  padding-right: 17px;
+}
+.overflowHiddenMobile {
+  overflow: hidden;
+  /* padding-right: 17px; */
+}

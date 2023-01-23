@@ -1,0 +1,49 @@
+.DotsContainer {
+  direction: ltr;
+}
+.DotsContainer li {
+  margin: 0 3px;
+}
+
+/* media */
+.SliderHeight {
+  height: 270px;
+}
+
+@media (min-width: 768px) {
+  .SliderHeight {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .SliderHeight {
+    height: 200px;
+  }
+}
+/* post */
+
+.Slider {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.BgError {
+  background: url('../../assets/imgs/random.jpg') no-repeat center center/cover;
+}
+
+.PostSliderHeight {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .PostSliderHeight {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .PostSliderHeight {
+    height: 700px;
+  }
+}

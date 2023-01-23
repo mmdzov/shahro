@@ -1,0 +1,64 @@
+.AlertBox {
+  position: fixed;
+  min-width: 300px;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0.5rem;
+  color: var(--light);
+  animation: fade 4s 1;
+  -webkit-animation: fade 4s 1;
+  color: white;
+}
+
+.AlertBoxTextBox {
+  text-align: right;
+  margin: 0 20px;
+}
+
+.AlertBoxTitle {
+  margin: 0;
+  margin: 10px 10px;
+  font-size: 1.5rem;
+}
+
+.AlertBoxMessage {
+  margin: 0;
+  margin-top: -5px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.AlertBoxIconBox {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.AlertBoxIcon {
+  font-size: 3.6rem;
+  position: absolute;
+  top: 57%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(100px);
+  }
+
+  25% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

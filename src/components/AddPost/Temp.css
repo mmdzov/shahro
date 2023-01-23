@@ -1,0 +1,8 @@
+.tempInput.active {
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 25px;
+  height: 55px !important;
+}
+.tempInput {
+  transition: all 0.3s ease-out;
+}

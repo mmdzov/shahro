@@ -1,0 +1,15 @@
+/* Chrome, Safari, Edge, Opera */
+.HideArrows input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.HideArrows input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.InputNumber {
+  direction: ltr;
+}

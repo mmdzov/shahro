@@ -1,0 +1,7 @@
+/* .evItem:first-of-type {
+  padding-top: 50px;
+} */
+.evItem {
+  padding-top: 53px;
+  padding-bottom: 40px !important;
+}

@@ -1,0 +1,103 @@
+@keyframes SubPopup {
+  0% {
+    height: 0px;
+  }
+  50% {
+    height: 440px;
+  }
+
+  100% {
+    height: 420px;
+  }
+}
+.btmMenu.active {
+  animation: SubPopup 600ms linear forwards;
+  transition: all 0.2s ease-in;
+}
+
+.activeEvents {
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+
+.MuiInputLabel-root,
+.MuiInputLabel-formControl {
+  text-align: right;
+  width: 132%;
+  color: black !important;
+  font-weight: bold;
+}
+.MuiInput-underline:before {
+  content: unset !important;
+}
+.MuiInputBase-input,
+.MuiInput-underline:hover:not(.Mui-disabled):before,
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-input,
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-input:focus,
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-input:before,
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-input:after,
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-input:hover {
+  border-bottom: unset !important;
+}
+
+.Calendar__day.-today:not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween) {
+  font-weight: unset !important;
+  color: white !important;
+  position: relative;
+}
+.Calendar__day.-today:not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween)::after {
+  content: "";
+  position: absolute;
+  bottom: 0.2em;
+  display: block;
+  width: 0.6em;
+  height: 1px;
+  background: unset;
+  left: 50%;
+  opacity: 0.5;
+  transform: translateX(-50%);
+  transition: 0.2s;
+}
+
+.blink_me {
+  animation: blinker 1s linear;
+  animation-iteration-count: 3;
+  transition: all 0.2s ease-in-out;
+}
+
+.ActiveSingleEvent {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: 3;
+}
+.ActiveSingleEvent::after {
+  content: "";
+  position: absolute;
+  height: 51%;
+  border-right: 3px dashed #ccc;
+  top: 1px !important;
+  right: 25px;
+}
+@-webkit-keyframes fadeIn {
+  50% {
+    opacity: 0.3;
+  }
+}
+@keyframes fadeIn {
+  50% {
+    opacity: 0.3;
+  }
+}
+.today {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}

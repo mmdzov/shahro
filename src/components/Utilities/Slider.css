@@ -1,0 +1,7 @@
+.centeredVideo {
+  /* margin: 50% auto; */
+  height: inherit !important;
+}
+.unCenteredVideo {
+  height: revert !important;
+}

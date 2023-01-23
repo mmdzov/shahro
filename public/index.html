@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/icon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1, initial-scale=1, width=device-width"
+    />
+    <meta
+      name="description"
+      content="وب سایت اپلیکیشن شهری میرسه - خدمات - رسانه - فروشگاه - آگهی - Mireseh Android Web Application"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/assets/css/datePicker.css" />
+    <link rel="stylesheet" href="/assets/css/videojs.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    /> -->
+    <link rel="stylesheet" href="/leaflet.css" />
+    <!-- <link rel="stylesheet" href="/dist/flickity.css" /> -->
+    <!-- <link rel="manifest" href="/manifest.webmanifest" /> -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NW8WBX4");
+    </script>
+    <title>اپلیکیشن شهری میرسه</title>
+  </head>
+
+  <body dir="rtl">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="/assets/js/leaflet.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-G5D9ZS72L5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-G5D9ZS72L5");
+    </script>
+    <!-- <script type="text/javascript">
+      if ("serviceWorker" in navigator) {
+        console.log("Will the service worker register?");
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then(function (reg) {
+            console.log("Yes, it did.", reg);
+          })
+          .catch(function (err) {
+            console.log("No it didn't. This happened:", err);
+          });
+      }
+    </script> -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NW8WBX4"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="modal"></div>
+    <div id="alert"></div>
+  </body>
+</html>

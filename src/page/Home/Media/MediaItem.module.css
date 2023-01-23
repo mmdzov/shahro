@@ -1,0 +1,7 @@
+.MediaItem {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  height: fit-content;
+  margin: 12px 0px;
+}
